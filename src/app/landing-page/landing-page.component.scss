@@ -1,0 +1,47 @@
+.p-5{
+    padding-left: 0px !important;
+    @media only screen and (max-width:767px){
+        padding: 0px !important;
+    }
+    .user-pic{
+        img{
+            object-fit: cover;
+            border-radius: 50%;
+            height: 100%;
+            margin: auto;
+            width: 80%;
+            display: block;
+        }
+    }
+    .title{
+        font-size: 100px;
+        font-weight: bold;
+        line-height: initial !important;
+    }
+    .sub-title{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .details{
+        margin-top: 40px;
+        h3{
+            height: 140px;
+            width: 140px;
+            border-radius: 50%;
+            display:grid;
+            align-items: center;
+            text-align: center;
+            margin: 0px auto;
+            cursor: pointer;
+            background-color: antiquewhite;
+            font-weight: 600;
+            @media only screen and (max-width:767px){
+                width: 100px !important;
+                height: 100px !important;
+            }
+        }
+    }
+}
+
+
+
