@@ -1,1 +1,95 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Dai Banna SIL', serif !important;
+    p{
+        line-height: 1.6em !important;
+        font-size: 16px !important;
+    }
+    // Header Styles
+    nav {
+        // box-shadow: 0px 1px 7px 3px #bbb3b9;
+        background-color: #f8f9fa !important;
+        a {
+            img {
+                border-radius: 50%;
+            }
+        }
+        ul {
+            @media only screen and (min-width:769px) {
+                li.nav-item {
+                    a {
+                        position: relative;
+                        padding: 10px 20px !important;
+                        font-size: 16px;
+                        &:after {
+                            content: " ";
+                            position: absolute;
+                            right: 0px;
+                            top: 7px;
+                            width: 1px;
+                            height: 25px;
+                            background-color: #000;
+                        }
+                    }
+                    &:last-child {
+                        a:after {
+                            width: 0px !important;
+                        }
+                    }
+                    &:hover {
+                        a {
+                            color: #ffa500 !important;
+                            &:after {
+                                color: initial !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Content Styles
+    .content{
+        .p-5{
+            @media only screen and (max-width:767px){
+                padding: 0px !important;
+                padding-bottom: 25px !important;
+            }
+        }
+        .title{
+            font-size: 32px;
+            font-weight: 500;
+            margin-bottom: 25px;
+            line-height: initial !important;
+            @media only screen and (max-width:767px){
+                margin: 0px !important;
+            }
+
+        }
+        .sub-title{
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .mt-5{
+            @media only screen and (max-width:767px){
+                margin-top: 2rem !important;
+            }
+        }
+        .mb-5{
+            @media only screen and (max-width:767px){
+                margin-bottom: 2rem !important;
+            }
+        }
+    }
+}
+// Scroll Styles
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
