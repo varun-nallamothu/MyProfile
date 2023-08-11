@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [],
@@ -13,7 +13,8 @@ import {MatButtonModule} from '@angular/material/button';
   exports: [
     MatButtonModule, 
     MatMenuModule, 
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ]
 })
 export class SharedMaterialModule { }
