@@ -9,7 +9,6 @@ import { SharedMaterialModule } from '../shared-module/shared-material/shared-ma
 
 @NgModule({
   declarations: [
-    ResumeComponent
   ],
   imports: [
     CommonModule,
