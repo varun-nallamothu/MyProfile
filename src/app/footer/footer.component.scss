@@ -4,6 +4,11 @@ h3{
 }
 p{
     margin-bottom: 0px;
+    cursor: pointer;
+    i{
+        margin-right: 10px;
+        vertical-align: text-top;
+    }
     @media only screen and (max-width:767px){
         margin-bottom: 15px;
     }

@@ -10,7 +10,28 @@ hr{
     margin: 0px !important;
 }
 ul{
+    font-size: 3rem;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+    text-align: center;
+    
     li{
-        margin-bottom: 10px;
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        // cursor: pointer;
+        
+        i{
+            color: #868e96;
+            &:hover{
+                color: blue !important;
+            }
+        }
+        p{
+            color: #868e96;
+    font-size: 10px;
+        }
     }
 }
